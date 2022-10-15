@@ -1,0 +1,153 @@
+
+body {
+ background: url(../img/1617484876_50-p-oboi-pustinnaya-doroga-52.jpg) 0 0 / 100% no-repeat;
+}
+
+.car-content__car {
+   position: relative;
+}
+.car-content__one {
+   position: absolute;
+   width: 300px;
+   height: 90px;
+   background-color: darkolivegreen;
+   top: 500px;
+   left: 560px;
+   border-radius: 50% 50% 51% 49% / 100% 100% 0% 0% ;
+   border: 2px solid black ;
+}
+.car-content__two {
+   position: absolute;
+   width: 95px;
+   height: 60px;
+   background-color: yellow;
+   top: 520px;
+   left: 595px;
+   opacity: 0.5;
+   border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
+   border: 2px solid black;
+}
+.car-content__two:hover {
+   position: absolute;
+   top: 580px;
+   transition: top 2s ease-in-out;
+}
+
+.car-content__three {
+   position: absolute;
+   width: 95px;
+   height: 60px;
+   background-color: yellow;
+   top: 520px;
+   left: 725px;
+   opacity: 0.5;
+   border-radius: 0% 100% 100% 0% / 100% 100% 0% 0%;
+   border: 2px solid black;
+}
+.car-content__three:hover {
+ position: absolute;
+ top: 580px;
+ transition: top 2s ease-in-out;
+}
+.car-content__four {
+   position: absolute;
+   width: 500px;
+   height: 100px;
+   background-color:darkolivegreen;
+   top: 590px;
+   left: 470px;
+   border-radius: 100px 100px 0px 0px;
+   border: 2px solid black;
+}
+
+.car-content__five {
+   position: absolute;
+   width: 95px;
+   height: 75px;
+   border: 2px solid black;
+   top: 600px;
+   left: 595px;
+   border-radius: 10px;
+}
+.car-content__six {
+   position: absolute;
+   width: 95px;
+   height: 75px;
+   border: 2px solid black;
+   top: 600px;
+   left: 730px;
+   border-radius: 10px;
+}
+.car-content__seven {
+   position: absolute;
+   width: 18px;
+   height: 10px;
+   background-color: black;
+   top: 625px;
+   left: 795px;
+   border-radius: 4px;
+}
+.car-content__eight {
+   position: absolute;
+   width: 18px;
+   height: 10px;
+   background-color: black;
+   top: 625px;
+   left: 660px;
+   border-radius: 4px;
+}
+.car-content__nine {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 630px;
+   left: 487px;
+   border-radius: 50px;
+   background-color: black;
+}
+.car-content__ten {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 630px;
+   left: 850px;
+   border-radius: 50px;
+   background-color: black;
+}
+.car-content__even {
+   position: absolute;
+   width: 65px;
+   height: 65px;
+   top: 650px;
+   left: 505px;
+   background-color: yellow;
+   border-radius: 50%;
+}
+.car-content__twelve {
+   position: absolute;
+   width: 65px;
+   height: 65px;
+   top: 650px;
+   left: 867px;
+   background-color: yellow;
+   border-radius: 50%;
+}
+.car-content__thirteen {
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   top: 650px;
+   left: 475px;
+   border-radius: 50%;
+   background-color: yellow;
+   box-shadow: 3px 3px 30px 30px yellow;
+
+}
+.car-content__thirteen:hover {
+   box-shadow: 3px 3px 30px 30px rgb(123, 255, 0);
+}
+.car:hover {
+   position: absolute;
+   left: 100px;
+   transition: left 1s ease-in-out;
+}
